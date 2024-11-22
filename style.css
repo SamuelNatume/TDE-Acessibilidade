@@ -1,0 +1,236 @@
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: #ADD8E6;
+  color: #4A4A4A;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem; 
+  background: linear-gradient(45deg, #757575, #000000); 
+  color: transparent;  
+  -webkit-background-clip: text;  
+  background-clip: text;  
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);  
+  animation: fadeIn 3s ease-in-out;  
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);  /* Efeito de movimento para cima */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);  /* Finaliza com o texto na posição original */
+  }
+}
+
+.accessibility-container {
+  position: fixed;
+  top: 10px;
+  background-color: #94d4bf;
+  color: white;
+  border-radius: 10px;
+}
+
+.accessibility-container h2 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.accessibility-container ul {
+  list-style: none;
+}
+
+.accessibility-container button {
+  padding: 10px;
+  background-color: #ffffff;
+  color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 5px 0;
+  
+}
+
+header p {
+  font-size: 30px;
+  margin: 10px 0 0;
+  color: #333;
+  font-style: italic;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  background: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 50px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;  
+  gap: 5px; 
+ 
+}
+
+.contexto {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  background-color: #c8d1d4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 28%;  
+  margin-left: 10%;
+  margin-top: 100px;
+}
+
+
+.eficiencia {
+ 
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  background-color:  #c8d1d4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 28%;  
+  margin-right: 10%;
+  margin-top: 100px;
+  
+}
+
+.benefits {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 50px 20px;
+}
+
+.benefits h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 40px 20px; 
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.saiba_mais {
+  text-align: center;
+  font-size: 2.5rem; 
+ 
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+.benefit-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.benefit-item img {
+  width: 70px; 
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.benefit-item p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5; 
+  max-width: 200px; 
+}
+
+
+.img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  float: right;
+  background-color: #f5f5f5;
+  margin-top: 50px;
+}
+
+.img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:  #ADD8E6;
+  padding: 100px;
+  border-radius: 15px;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.menu a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+  padding: 30px;
+  background-color: #e6d2ad;
+  color: #4A4A4A;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.menu a:hover {
+  background-color:  #c4cbce;
+  color: #FFF;
+}
+
+
+footer {
+  background-color: #708090;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.footer {
+  margin-top: 10px;
+}
+
+
